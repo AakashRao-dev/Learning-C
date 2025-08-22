@@ -1,21 +1,47 @@
 # Projects to build on C for Practice
 
-### Student Record Manager (File Handling)
+### Beginner projects (first 2–4 weeks)
 
-- Add, search, and delete student records in a .txt file.
-- Covers structs, file I/O, and basic memory handling.
+These help you master syntax and logic:
 
-### Simple CLI Calculator
+- Number utilities: factorial, Fibonacci, prime check, palindrome, Armstrong number.
 
-- Support +, -, \*, /, % with user input.
-- Covers functions, switch statements, and loops.
+- Basic calculators: integer/fraction calculator, temperature converter.
 
-### Mini Bank Account System
+- Array problems: linear search, binary search, sorting (bubble, selection, insertion).
 
-- Create an account, deposit, withdraw, check balance.
-- Practice structs, arrays, and user input.
+- String problems: reversing a string, checking anagrams, word count without libraries.
 
-### Number Guessing Game
+- Mini games: guess the number, rock-paper-scissors (text-based).
 
-- Random number generator + attempts count.
-- Covers control flow, rand(), functions.
+---
+
+### Intermediate projects (after loops & functions feel natural)
+
+These introduce structured programming and memory handling:
+
+- Matrix operations: add, subtract, multiply, transpose matrices.
+
+- Student database: add/search/delete records (using arrays of structs).
+
+- Simple bank management: deposit/withdraw, track balances in a file.
+
+- Command-line tools: like a to-do list app that saves tasks to a file.
+
+- Custom string library: re-implement functions like strlen, strcpy, strcmp.
+
+---
+
+### Advanced projects (once you’re comfortable with pointers & files)
+
+These start to feel like “system-level” work:
+
+- Tiny shell (command interpreter): read commands and execute them with system() or exec.
+
+- Memory allocator: a toy version of malloc and free to learn heap management.
+
+- HTTP server (very basic): listen on a port, return a fixed response.
+
+- Simple compiler or interpreter: parse basic arithmetic expressions into results.
+
+- Game with graphics: using libraries like SDL (e.g., Tetris or Snake).
